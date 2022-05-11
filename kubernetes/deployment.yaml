@@ -22,7 +22,7 @@ spec:
   spec:
     containers:
     -  name: nginx-hello-world-ctr
-       image: ttl.sh/1890460d-5bc3-4596-9e62-6c5a67892152:1h
+       image: __IMAGE__@__DIGEST__
        ports:
        - containerPort: 80
 ---
